@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+svg {
+  margin-top: 5rem;
+}
+input {
+  background-color: #2E2A68;
+  color: white;
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+input::placeholder{
+  color: #bbb
+}
+input:focus {
+  outline: none;
+}
+footer {
+  color: white;
+  margin-bottom: 1rem;
+}
+.card {
+  background-color: #2E2A68;
+  background-image: linear-gradient(315deg, 
+  #0394bd 0%, #5418ab 74%);
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+  padding: 3rem;
+  max-width: 800px;
+  margin-bottom: 1.5rem;
+}
+.avatar {
+  border: 10px solid #6e69af;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+.user-info {
+  margin-left: 2rem;
+  color: white;
+}
+.user-info h2 {
+  margin-top: 0;
+}
+.user-info .info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style-type: none;
+  width: 400px;
+}
+
+.user-info ul li strong{
+  font-size: 0.85rem;
+  margin-left:0.5rem;
+}
+.repos-container {
+  padding: 0;
+}
+h5 {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.repos {
+  display: inline-block;
+  font-size: 0.7rem;  
+  color: inherit;
+  padding: 0.25rem 0.5rem;
+  margin-right:0.5rem;
+  margin-bottom: 0.4rem;
+  background: #2a2a72;
+  border-radius: 5px;
+}
+.card-error{
+  background-color: #2E2A68;
+  background-image: linear-gradient(315deg, 
+  #0394bd 0%, #5418ab 74%);
+  border-radius: 10px;
+  box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+  padding: 3rem;
+  max-width: 800px;
+  margin-bottom: 1.5rem;
+}
+.not-found{
+  color:white;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+#e404{
+  font-size: 9rem;
+  padding: 0;
+  margin: 0;
+  line-height: 8rem;
+}
+#btn-search{
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+#btn-search:focus{
+  outline: none;
+}
+#btn-search:hover {
+  background-color: rgb(228, 228, 228);
+}
+#btn-search:active {
+  background-color: #ffffff;
+}
